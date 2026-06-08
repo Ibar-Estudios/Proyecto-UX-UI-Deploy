@@ -1,0 +1,20 @@
+{
+  "sectionName": "Planteamiento",
+  "title": "Planteamiento del Proyecto 🎯",
+  "description": "Definición del problema, el usuario, la solución propuesta y los objetivos de la aplicación.",
+  "content": "",
+  "data": {
+    "🔴 Problemática": "Los jóvenes de entre 18 y 30 años que estudian y trabajan simultáneamente enfrentan una dificultad concreta: planifican sus días pero no logran ejecutar lo que planificaron. No es falta de intención ni de herramientas — el mercado está saturado de apps de productividad. El problema real es que ninguna de esas herramientas los acompaña mientras el tiempo pasa. No avisan cuando una tarea está consumiendo más tiempo del previsto, no generan un incentivo visible al completar objetivos, y no ayudan a retomar el plan cuando un imprevisto lo rompe. El resultado es siempre el mismo: llegan al final del día con la lista intacta, frustrados y sin entender por qué.",
+    "👤 Usuario": "El público objetivo son jóvenes de 18 a 30 años que combinan al menos dos responsabilidades simultáneas — estudiar, trabajar, emprender o sostener actividades personales como el deporte o tareas del hogar. Son nativos digitales, viven pegados al celular y consumen contenido visual en plataformas como Instagram y YouTube. Han probado herramientas de organización antes y las abandonaron porque les resultaron complejas, poco atractivas o que requerían demasiado tiempo de configuración. No son desorganizados por naturaleza: simplemente nunca encontraron una herramienta que se adapte a su ritmo real y que los acompañe en el momento de la ejecución.",
+    "💡 Solución": "Se desarrollará una aplicación móvil de gestión del tiempo diseñada específicamente para jóvenes con múltiples responsabilidades. A diferencia de los planificadores tradicionales, la app no solo permite organizar el día — sino que acompaña activamente al usuario mientras lo ejecuta. Contará con alertas en tiempo real que avisan cuando el tiempo de una tarea está por agotarse, un sistema de recompensas y progreso visible que genera hábito, y una interfaz simple e intuitiva que no requiere configuración extensa. El producto está pensado para ser el copiloto del día, no solo el planificador del día.",
+    "🎯 Objetivos de la aplicación": [
+      "Alertar al usuario en tiempo real cuando el tiempo disponible para una tarea está por agotarse",
+      "Visualizar el progreso del día de forma clara y motivadora",
+      "Recompensar la finalización de tareas para generar hábito y constancia",
+      "Permitir reorganizar el plan del día de forma rápida ante imprevistos",
+      "Ofrecer una experiencia de onboarding simple que no requiera más de 60 segundos de configuración",
+      "Adaptarse a horarios variables semana a semana sin fricción para el usuario"
+    ]
+  },
+  "isPublished": true
+}

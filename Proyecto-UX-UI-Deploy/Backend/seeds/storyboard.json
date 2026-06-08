@@ -1,0 +1,58 @@
+{
+  "sectionName": "Storyboard",
+  "title": "Storyboard — La historia de Matías 🎬",
+  "description": "Secuencia visual de 6 escenas que muestra el problema, la solución y el resultado final del producto.",
+  "data": {
+    "escenas": [
+      {
+        "numero": "01",
+        "tipo": "Problema",
+        "tipoColor": "#c0392b",
+        "titulo": "Las 11 de la noche, lista intacta",
+        "descripcion": "Matías llega al final del día y su lista de tareas sigue igual que a la mañana. El tiempo pasó, él no sabe cómo.",
+        "emoji": "🖥️😐"
+      },
+      {
+        "numero": "02",
+        "tipo": "Problema",
+        "tipoColor": "#c0392b",
+        "titulo": "Pierde la noción del tiempo",
+        "descripcion": "Se concentra tanto estudiando que no percibe las horas. Cuando se da cuenta, ya es tarde para todo lo demás.",
+        "emoji": "🕐❓"
+      },
+      {
+        "numero": "03",
+        "tipo": "Problema",
+        "tipoColor": "#c0392b",
+        "titulo": "Probó todo, nada le generó hábito",
+        "descripcion": "Apps, IAs, cuadernos físicos. Todas le fallaron porque planifican pero no acompañan durante la ejecución.",
+        "emoji": "❌❌❌"
+      },
+      {
+        "numero": "04",
+        "tipo": "Solución",
+        "tipoColor": "#2980b9",
+        "titulo": "La app lo alerta antes de que sea tarde",
+        "descripcion": "Por primera vez algo le avisa en tiempo real. \"Tiempo crítico: te quedan 20 minutos para tu próxima tarea.\"",
+        "emoji": "⏰📱"
+      },
+      {
+        "numero": "05",
+        "tipo": "Solución",
+        "tipoColor": "#27ae60",
+        "titulo": "Ve su progreso y se motiva a seguir",
+        "descripcion": "Cada tarea completada genera una recompensa visible. El progreso del día lo mantiene enfocado y motivado.",
+        "emoji": "⭐📊"
+      },
+      {
+        "numero": "06",
+        "tipo": "Resultado",
+        "tipoColor": "#27ae60",
+        "titulo": "Retomó el gym y cerró la semana completo",
+        "descripcion": "Por primera vez en meses, Matías llega al viernes habiendo completado todo. Hasta retomó el gimnasio que había dejado.",
+        "emoji": "😊🎉"
+      }
+    ]
+  },
+  "isPublished": true
+}

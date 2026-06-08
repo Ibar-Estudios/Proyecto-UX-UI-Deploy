@@ -1,0 +1,79 @@
+{
+  "sectionName": "Research",
+  "title": "Research — Análisis del contexto 🔍",
+  "description": "Identificación del problema central, investigación periodística y análisis de usuarios en redes sociales.",
+  "content": "<p class=\"mb-8 leading-relaxed text-lg text-slate-800\"><strong class=\"text-slate-900 font-black\">El problema central</strong> que identificamos: Los jóvenes estudiantes tienen múltiples responsabilidades simultáneas pero carecen de herramientas o hábitos efectivos para organizar su tiempo, lo que les impide completar sus actividades.</p><p class=\"mb-8 leading-relaxed text-lg text-slate-800\"><strong class=\"text-slate-900 font-black\">Lo que ya sabemos del mercado:</strong> Existen soluciones como Google Calendar, Notion, Todoist o agendas físicas, pero generalmente fallan con este público porque son demasiado complejas, poco atractivas visualmente para jóvenes, no pensadas para el ritmo académico específico, y requieren mucho tiempo de configuración.</p><p class=\"mb-8 leading-relaxed text-lg text-slate-800\"><strong class=\"text-slate-900 font-black\">Lo que todavía necesitamos descubrir:</strong> ¿Por qué realmente no organizan su tiempo? ¿Es falta de herramienta o de hábito? ¿Qué dispositivos usan más? ¿Qué intentaron antes y por qué lo abandonaron?</p>",
+  "data": {
+    "📰 Investigación de Problemática — Artículos y fuentes": [
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "📄 FUENTE 1 — Revista LATAM (2024)",
+      "Título: 'Manejo de la gestión del tiempo en estudiantes universitarios, percepción y herramientas'",
+      "Autores: Hernández García, J. et al. — LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades, Vol. V, Nº 4, junio 2024.",
+      "🔗 https://latam.redilat.org/index.php/lt/article/view/2288",
+      "Resumen: La investigación revela que aun cuando el estudiante universitario conoce herramientas para gestionar el tiempo, no considera necesario su uso y opta por trabajar de manera desorganizada. Bajo la observación directa es perceptible que no se realiza dicha gestión de manera que les permita disminuir su estrés en el ámbito escolar.",
+      "Conclusión relevante: El problema no es desconocimiento de las herramientas — es la falta de motivación y hábito para adoptarlas. Esto valida directamente nuestro POV.",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "📄 FUENTE 2 — Revista Brasileira de Terapias Cognitivas (2024)",
+      "Título: 'Perfeccionismo y procrastinación en estudiantes universitarios argentinos'",
+      "Autores: Galarregui, M. & Keegan, E. — Revista Brasileira de Terapias cognitivas, 20, e20240469, 2024.",
+      "🔗 https://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1808-56872024000100506",
+      "Resumen: Se halló que el 95,7% de los estudiantes universitarios argentinos presenta conductas de procrastinación ocasional. A causa de la procrastinación, los estudiantes experimentan consecuencias negativas tales como reprobar cursos, extender períodos de estudio e incluso no finalizar la educación universitaria.",
+      "Conclusión relevante: La procrastinación no es un problema marginal — afecta a casi la totalidad de los universitarios argentinos, y su impacto llega a truncar carreras completas.",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "📄 FUENTE 3 — Xataka / Lokalise Study (2025)",
+      "Título: 'Todas esas herramientas y apps de productividad que utilizas han tenido un efecto: bajar la productividad'",
+      "Fuente: Xataka — basado en estudio de Lokalise, octubre 2025.",
+      "🔗 https://www.xataka.com/aplicaciones/mayor-ladron-tiempo-oficina-no-ha-sido-cafe-han-sido-aplicaciones-productividad-que-prometieron-ayudarte",
+      "Resumen: El 56% de los usuarios afirma que la fatiga por alternancia entre herramientas afecta negativamente su concentración y productividad. El cambio constante entre apps genera una pérdida promedio de 51 minutos diarios.",
+      "Conclusión relevante: El mercado actual de apps de productividad está fragmentado y genera más carga cognitiva de la que resuelve. Hay un espacio real para una solución simple, integrada y que acompañe en tiempo real."
+    ],
+    "🔑 Competidores identificados": [
+      "Google Calendar — potente pero no genera hábito ni alerta en tiempo real",
+      "Notion — demasiado complejo para configurar y mantener",
+      "Todoist — lista de tareas sin contexto temporal ni recompensas",
+      "Agendas físicas — requieren disciplina previa que el usuario no tiene"
+    ],
+    "✅ Conclusiones del Research": [
+      "El problema está validado tanto en nuestro entorno cercano como en investigaciones académicas latinoamericanas",
+      "Entre el 80% y el 95% de los universitarios procrastinan — no es un nicho, es el mercado completo",
+      "Las herramientas actuales generan 'fatiga de apps' en lugar de resolver el problema",
+      "La necesidad clave no es planificación sino acompañamiento durante la ejecución",
+      "Hay un espacio real para una solución simple, con alertas en tiempo real y sistema de recompensas"
+    ]
+  },
+  "comentarios": [
+    {
+      "imagen": "/images/research/comentario-1.jpeg",
+      "plataforma": "Reddit",
+      "analisis": "El usuario describe perfectamente el perfil de Matías: trabaja y estudia simultáneamente, con horarios rotativos que le impiden desconectar. La frase 'lo malo es que yo me organizaba el tiempo' encierra toda la ironía del problema — saber que hay que organizarse no alcanza si no hay un sistema que acompañe."
+    },
+    {
+      "imagen": "/images/research/comentario-2.jpeg",
+      "plataforma": "Reddit — r/productivity",
+      "analisis": "Futuro estudiante universitario que ya percibe que el tiempo 'se le escapa como agua' antes de empezar. Observa a otros que sí logran organizarse y lo ve casi como magia. Este comentario valida que el problema aparece antes de ingresar a la universidad y que los usuarios son conscientes de él pero no saben cómo resolverlo."
+    },
+    {
+      "imagen": "/images/research/comentario-3.jpeg",
+      "plataforma": "Reddit — r/productivity",
+      "analisis": "Usuario con horario siempre cambiante y constantes interrupciones que le impiden reconcentrarse. Conecta directamente con Barbara — horarios rotativos — y con la necesidad de alertas proactivas cuando el tiempo se pierde. La pregunta que hace resume el diferencial del producto: cómo mantenerse concentrado y retomar la tarea cuando algo te saca del flujo."
+    }
+  ],
+  "noticias": [
+    {
+      "imagen": "/images/research/noticia-1.jpeg",
+      "fuente": "Infobae",
+      "analisis": "El artículo de Infobae contextualiza el problema a escala social: la sensación de falta de tiempo dejó de ser una excepción para convertirse en una percepción cotidiana. La referencia a que 'las listas de tareas se alargan y los objetivos cumplidos suelen ser pocos' es exactamente lo que nuestros 8 encuestados confirmaron. El problema no es individual — es sistémico."
+    },
+    {
+      "imagen": "/images/research/noticia-2.png",
+      "fuente": "Artículo sobre universitarios en Chile",
+      "analisis": "La cita del psicólogo educacional Diego Figueroa es clave: cuando no tenemos los recursos para enfrentar lo que la vida nos exige, el estrés genera cortisol que daña el cerebro y desordena los horarios. Esto explica científicamente por qué Constantino dejó el gimnasio — no fue falta de tiempo sino el estrés por saturación que termina colapsando todo el sistema de organización."
+    },
+    {
+      "imagen": "/images/research/noticia-3.png",
+      "fuente": "Universidad de Mendoza — Sede Río Cuarto",
+      "analisis": "La Universidad de Mendoza organizó un taller específico sobre gestión del tiempo para ingresantes universitarios, lo que confirma que el problema es tan extendido que las propias instituciones educativas lo están abordando de forma institucional. Entre los temas emergentes del encuentro se destacaron la dificultad para organizar tiempos ante múltiples demandas y la vivencia de incertidumbre — exactamente los mismos hallazgos de nuestra investigación."
+    }
+  ],
+  "isPublished": true
+}
