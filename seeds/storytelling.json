@@ -1,0 +1,29 @@
+{
+  "sectionName": "Storytelling",
+  "title": "Storytelling — La historia de Matías 📖",
+  "description": "\"El día que Matías decidió que algo tenía que cambiar\"",
+  "content": "<p class=\"mb-8 leading-relaxed text-lg text-slate-800\">Era <strong class=\"text-slate-900 font-black\">martes a las 11 de la noche</strong>. Matías estaba sentado frente a la computadora con los ojos cansados y una lista de tareas que seguía igual que a las 9 de la mañana.</p><p class=\"mb-8 leading-relaxed text-lg text-slate-800\">Tenía parcial el jueves. Tenía que entregar un trabajo práctico el viernes. Y había prometido que esta semana sí iba a retomar el gimnasio — el mismo que había dejado tres meses atrás porque <em>\"no le alcanzaba el tiempo\"</em>.</p><p class=\"mb-8 leading-relaxed text-lg text-slate-800\">No es que no hubiera intentado organizarse. Había probado Google Calendar, una app de to-do lists, incluso había empezado a usar una IA para planificar su semana. Pero siempre pasaba lo mismo: el plan existía, era prolijo, tenía sentido. Y sin embargo, a las 11 de la noche, nada estaba hecho.</p><p class=\"mb-8 leading-relaxed text-lg text-slate-800\">Lo que Matías no sabía era que su problema no era falta de herramientas. Era que <strong class=\"text-slate-900 font-black\">ninguna de esas herramientas lo acompañaba mientras el tiempo pasaba</strong>. Ninguna le avisaba cuando llevaba dos horas perdido en algo que iba a llevarle seis. Ninguna le decía <em>\"bien, terminaste eso — ya podés pasar a lo siguiente\"</em>. Ninguna lo ayudaba a volver al plan cuando un imprevisto lo sacaba de curso.</p><p class=\"mb-10 leading-relaxed text-lg text-slate-800\">Esa noche, Matías cerró la computadora y pensó:</p><blockquote class=\"border-l-4 border-indigo-500 pl-6 py-4 bg-indigo-50 rounded-r-2xl mb-8\"><p class=\"text-2xl font-black text-indigo-900 italic leading-relaxed\">\"Necesito algo que esté conmigo mientras lo hago, no solo cuando lo planifico.\"</p></blockquote>",
+  "data": {
+    "🎭 Personaje": [
+      "Matías, 21 años — estudiante universitario y trabajador part-time",
+      "Múltiples responsabilidades: parciales, TPs, trabajo, vida social",
+      "Dejó el gym tres meses atrás por acumulación de actividades"
+    ],
+    "⚡ Conflicto central": [
+      "El plan existe, es prolijo y tiene sentido",
+      "Pero a las 11 de la noche, nada está hecho",
+      "El problema no es la herramienta — es que ninguna lo acompaña en tiempo real"
+    ],
+    "🔍 Lo que las herramientas actuales NO hacen": [
+      "No avisan cuando llevás dos horas perdido en algo que iba a llevar seis",
+      "No confirman cuando terminás algo — no hay cierre ni celebración",
+      "No ayudan a retomar el plan cuando un imprevisto lo rompe"
+    ],
+    "💡 Realización del usuario": [
+      "El problema no es planificar — es ejecutar con acompañamiento",
+      "Necesita algo que esté presente mientras hace, no solo antes",
+      "La solución debe vivir en el momento, no en la agenda"
+    ]
+  },
+  "isPublished": true
+}

@@ -1,0 +1,115 @@
+{
+  "sectionName": "Dendrograma",
+  "title": "Dendrograma & Matriz de Similitud 📊",
+  "description": "Análisis cuantitativo del CardSorting: con qué frecuencia los participantes agruparon cada par de tarjetas juntas.",
+  "data": {
+    "totalParticipantes": 4,
+    "explicacion": "La matriz de similitud muestra el porcentaje de participantes que colocaron cada par de tarjetas en el mismo grupo. A mayor porcentaje, mayor acuerdo mental entre los usuarios sobre que esas funcionalidades pertenecen juntas. El dendrograma visualiza jerárquicamente cómo se agrupan las tarjetas por similitud.",
+    "clusters": [
+      {
+        "id": "gestion-tiempo",
+        "nombre": "Gestión de tiempo en ejecución",
+        "color": "indigo",
+        "similitudPromedio": 75,
+        "tarjetas": [
+          "Alerta de tiempo crítico en tiempo real",
+          "Notificación cuando una tarea lleva más tiempo del estimado",
+          "Temporizador por tarea",
+          "Recordatorio antes de que empiece una tarea",
+          "Reorganizar el plan ante imprevistos"
+        ],
+        "pares": [
+          { "a": "Alerta de tiempo crítico en tiempo real", "b": "Notificación cuando una tarea lleva más tiempo del estimado", "score": 100 },
+          { "a": "Alerta de tiempo crítico en tiempo real", "b": "Temporizador por tarea", "score": 75 },
+          { "a": "Alerta de tiempo crítico en tiempo real", "b": "Recordatorio antes de que empiece una tarea", "score": 75 },
+          { "a": "Alerta de tiempo crítico en tiempo real", "b": "Reorganizar el plan ante imprevistos", "score": 75 },
+          { "a": "Notificación cuando una tarea lleva más tiempo del estimado", "b": "Temporizador por tarea", "score": 75 },
+          { "a": "Notificación cuando una tarea lleva más tiempo del estimado", "b": "Reorganizar el plan ante imprevistos", "score": 75 },
+          { "a": "Temporizador por tarea", "b": "Recordatorio antes de que empiece una tarea", "score": 50 },
+          { "a": "Recordatorio antes de que empiece una tarea", "b": "Reorganizar el plan ante imprevistos", "score": 50 }
+        ]
+      },
+      {
+        "id": "progreso-logros",
+        "nombre": "Progreso y logros",
+        "color": "emerald",
+        "similitudPromedio": 75,
+        "tarjetas": [
+          "Celebración visual al alcanzar una meta",
+          "Sistema de recompensas al completar tareas",
+          "Racha de días consecutivos cumplidos",
+          "Barra de progreso diario",
+          "Marcar tarea como completada"
+        ],
+        "pares": [
+          { "a": "Celebración visual al alcanzar una meta", "b": "Sistema de recompensas al completar tareas", "score": 75 },
+          { "a": "Celebración visual al alcanzar una meta", "b": "Racha de días consecutivos cumplidos", "score": 75 },
+          { "a": "Sistema de recompensas al completar tareas", "b": "Racha de días consecutivos cumplidos", "score": 75 },
+          { "a": "Barra de progreso diario", "b": "Marcar tarea como completada", "score": 75 },
+          { "a": "Celebración visual al alcanzar una meta", "b": "Barra de progreso diario", "score": 50 },
+          { "a": "Marcar tarea como completada", "b": "Racha de días consecutivos cumplidos", "score": 50 }
+        ]
+      },
+      {
+        "id": "planificacion-metas",
+        "nombre": "Planificación y metas",
+        "color": "violet",
+        "similitudPromedio": 50,
+        "tarjetas": [
+          "Crear tarea con fecha y hora",
+          "Crear meta semanal",
+          "Seguimiento de avance hacia una meta",
+          "Resumen semanal de productividad",
+          "Resumen del día al finalizar"
+        ],
+        "pares": [
+          { "a": "Crear meta semanal", "b": "Seguimiento de avance hacia una meta", "score": 75 },
+          { "a": "Crear meta semanal", "b": "Resumen semanal de productividad", "score": 75 },
+          { "a": "Seguimiento de avance hacia una meta", "b": "Resumen semanal de productividad", "score": 50 },
+          { "a": "Crear tarea con fecha y hora", "b": "Crear meta semanal", "score": 50 },
+          { "a": "Resumen semanal de productividad", "b": "Resumen del día al finalizar", "score": 50 },
+          { "a": "Crear tarea con fecha y hora", "b": "Seguimiento de avance hacia una meta", "score": 25 }
+        ]
+      },
+      {
+        "id": "configuracion",
+        "nombre": "Configuración y perfil",
+        "color": "slate",
+        "similitudPromedio": 25,
+        "tarjetas": [
+          "Configuración inicial rápida",
+          "Configuración de horarios disponibles por día",
+          "Marcar actividades inamovibles del día",
+          "Perfil de usuario con historial de logros",
+          "Modo de horario flexible para semanas variables"
+        ],
+        "pares": [
+          { "a": "Configuración inicial rápida", "b": "Configuración de horarios disponibles por día", "score": 25 },
+          { "a": "Configuración de horarios disponibles por día", "b": "Marcar actividades inamovibles del día", "score": 25 },
+          { "a": "Configuración de horarios disponibles por día", "b": "Modo de horario flexible para semanas variables", "score": 25 },
+          { "a": "Perfil de usuario con historial de logros", "b": "Racha de días consecutivos cumplidos", "score": 25 },
+          { "a": "Marcar actividades inamovibles del día", "b": "Modo de horario flexible para semanas variables", "score": 25 }
+        ]
+      }
+    ],
+    "informe": {
+      "hallazgos": [
+        "El par con mayor similitud (100%) fue 'Alerta de tiempo crítico en tiempo real' y 'Notificación cuando una tarea lleva más tiempo del estimado' — los 4 participantes que los usaron los colocaron siempre juntos, confirmando que los usuarios los perciben como la misma categoría funcional.",
+        "El cluster de 'Gestión de tiempo en ejecución' y 'Progreso y logros' obtuvieron el mayor consenso general (75% promedio), validando que son las dos áreas conceptuales más claras para los usuarios.",
+        "El cluster 'Planificación y metas' mostró consenso medio (50%), con tensión entre tarjetas de creación de tareas diarias y metas semanales — los usuarios no tienen del todo clara la frontera entre ambas.",
+        "El cluster 'Configuración y perfil' tuvo el menor consenso (25%), lo cual indica que estas funcionalidades no tienen un lugar mental claro para los usuarios y deberían estar agrupadas en una sección discreta de Ajustes."
+      ],
+      "erroresDetectados": [
+        "Martín y Sebastián no nombraron categorías, lo que limita el análisis cualitativo aunque sus patrones de agrupación aportan datos a la matriz de similitud.",
+        "Francisco no utilizó 7 de las 20 tarjetas, posiblemente por no encontrarles un lugar claro o por tiempo. Las 7 tarjetas no usadas pertenecen todas al cluster de configuración y perfil — lo que refuerza el bajo consenso de esa categoría."
+      ],
+      "ajustesArquitectura": [
+        "Las funcionalidades de 'Gestión de tiempo en ejecución' deben estar en el hub principal (Dashboard), no en un menú secundario.",
+        "Las recompensas y el progreso se perciben como una sola área — no separarlos en secciones distintas.",
+        "Crear tarea y crear meta semanal deben estar en la misma sección 'Mi Plan', ya que los usuarios los asocian mentalmente.",
+        "Todo lo relacionado con configuración debe agruparse en una sección discreta de Ajustes, sin protagonismo en la navegación principal."
+      ]
+    }
+  },
+  "isPublished": true
+}

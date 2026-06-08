@@ -1,0 +1,31 @@
+{
+  "sectionName": "PointOfView",
+  "title": "Point of View — POV 🎯",
+  "description": "Síntesis del problema real del usuario, redefinido desde la empatía y la investigación.",
+  "content": "<p class=\"mb-8 leading-relaxed text-lg text-slate-800\">El <strong class=\"text-slate-900 font-black\">Point of View</strong> es la declaración que sintetiza todo el research en una sola frase accionable. No describe síntomas — describe la causa raíz del problema desde la perspectiva del usuario.</p><div class=\"my-10 bg-gradient-to-br from-indigo-50 to-purple-50 border-l-4 border-indigo-500 rounded-2xl p-8 shadow-lg\"><p class=\"text-lg text-slate-700 leading-relaxed\"><span class=\"block text-xs font-bold uppercase tracking-widest text-indigo-400 mb-2\">Usuario</span><span class=\"text-2xl font-black text-slate-900\">Matías</span>, un joven estudiante universitario que trabaja y tiene múltiples responsabilidades simultáneas,</p><p class=\"text-lg text-slate-700 leading-relaxed mt-6\"><span class=\"block text-xs font-bold uppercase tracking-widest text-purple-400 mb-2\">Necesidad</span>necesita una forma de <strong class=\"text-slate-900 font-black\">mantenerse acompañado en la ejecución de su día</strong> — no solo planificarlo —</p><p class=\"text-lg text-slate-700 leading-relaxed mt-6\"><span class=\"block text-xs font-bold uppercase tracking-widest text-rose-400 mb-2\">Insight</span>porque el problema no es saber qué tiene que hacer, sino <strong class=\"text-slate-900 font-black\">no percibir cuándo el tiempo se le está yendo</strong> y no tener un incentivo real para seguir cuando el plan se desmorona.</p></div>",
+  "data": {
+    "👤 Usuario": [
+      "Matías, joven estudiante universitario",
+      "Trabaja y tiene múltiples responsabilidades simultáneas",
+      "Planifica pero falla en la ejecución"
+    ],
+    "🎯 Necesidad": [
+      "Mantenerse acompañado durante la ejecución del día",
+      "No solo planificar — sino ejecutar con soporte en tiempo real",
+      "Un sistema que no lo abandone cuando el plan se rompe"
+    ],
+    "💡 Insight clave": [
+      "El problema no es saber qué tiene que hacer",
+      "El problema es no percibir cuándo el tiempo se le está yendo",
+      "No tiene un incentivo real para continuar cuando el plan se desmorona",
+      "Las herramientas actuales planifican, pero no acompañan"
+    ],
+    "🔗 Conexión con el research": [
+      "Francisco: 'No hay algo que me diga: estás en tiempo crítico'",
+      "Constantino: abandonó el gym por saturación sin gestión",
+      "Barbara: necesita gamificación para mantener el hábito",
+      "Gastón: la clave es adaptarse, no obsesionarse con el plan"
+    ]
+  },
+  "isPublished": true
+}

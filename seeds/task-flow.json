@@ -1,0 +1,155 @@
+{
+  "sectionName": "TaskFlow",
+  "title": "Task Flow 🔀",
+  "description": "Representación de las tareas específicas que realiza el usuario dentro de la app, paso a paso y sin bifurcaciones. Cada flujo documenta una acción concreta desde el punto de entrada hasta la resolución.",
+  "data": {
+    "descripcion": "El Task Flow mapea el recorrido del usuario para completar una tarea específica. A diferencia del User Flow, no contempla decisiones ni caminos alternativos — muestra el camino ideal y directo. Cada paso representa una acción del usuario o una respuesta del sistema.",
+    "flujos": [
+      {
+        "id": "flujo-a",
+        "nombre": "Ejecutar el día",
+        "subtitulo": "Flujo A — Core del producto",
+        "color": "indigo",
+        "icono": "⚡",
+        "descripcion": "El usuario abre la app durante su jornada, ve la tarea activa en curso, recibe una alerta de tiempo crítico y marca la tarea como completada para pasar a la siguiente.",
+        "userPersona": "Matías",
+        "escenario": "Son las 14:00. Matías lleva 45 minutos trabajando en un ejercicio de programación que tenía estimado en 30 minutos. La app lo alerta.",
+        "pasos": [
+          {
+            "id": "fa-1",
+            "orden": 1,
+            "tipo": "accion-usuario",
+            "titulo": "Abre la app",
+            "descripcion": "El usuario abre la app desde la pantalla de inicio del celular.",
+            "pantalla": "Splash / Carga"
+          },
+          {
+            "id": "fa-2",
+            "orden": 2,
+            "tipo": "respuesta-sistema",
+            "titulo": "Dashboard carga la tarea activa",
+            "descripcion": "El sistema muestra automáticamente la tarea en curso con el timer activo y el progreso del día visible.",
+            "pantalla": "Dashboard"
+          },
+          {
+            "id": "fa-3",
+            "orden": 3,
+            "tipo": "respuesta-sistema",
+            "titulo": "Alerta de tiempo crítico",
+            "descripcion": "El sistema detecta que la tarea superó el tiempo estimado y emite una alerta visual y/o sonora.",
+            "pantalla": "Dashboard — Alerta activa"
+          },
+          {
+            "id": "fa-4",
+            "orden": 4,
+            "tipo": "accion-usuario",
+            "titulo": "El usuario toma nota de la alerta",
+            "descripcion": "El usuario ve la alerta, decide si continúa o cierra la tarea.",
+            "pantalla": "Dashboard — Alerta activa"
+          },
+          {
+            "id": "fa-5",
+            "orden": 5,
+            "tipo": "accion-usuario",
+            "titulo": "Marca la tarea como completada",
+            "descripcion": "El usuario presiona el botón de completar tarea.",
+            "pantalla": "Dashboard"
+          },
+          {
+            "id": "fa-6",
+            "orden": 6,
+            "tipo": "respuesta-sistema",
+            "titulo": "Celebración visual",
+            "descripcion": "El sistema muestra una animación de celebración breve y actualiza la barra de progreso del día.",
+            "pantalla": "Dashboard — Celebración"
+          },
+          {
+            "id": "fa-7",
+            "orden": 7,
+            "tipo": "respuesta-sistema",
+            "titulo": "Carga la siguiente tarea",
+            "descripcion": "El sistema avanza automáticamente a la siguiente tarea del plan y activa su timer.",
+            "pantalla": "Dashboard — Nueva tarea activa"
+          }
+        ]
+      },
+      {
+        "id": "flujo-b",
+        "nombre": "Planificar el día",
+        "subtitulo": "Flujo B — Planificación",
+        "color": "violet",
+        "icono": "📋",
+        "descripcion": "El usuario crea su plan del día desde cero: agrega tareas con su duración estimada, marca las actividades inamovibles y confirma el plan para activar el Dashboard.",
+        "userPersona": "Valentina",
+        "escenario": "Son las 8:30. Valentina acaba de levantarse y quiere organizar su día antes de arrancar. Tiene clases, trabajo del emprendimiento y tiempo personal.",
+        "pasos": [
+          {
+            "id": "fb-1",
+            "orden": 1,
+            "tipo": "accion-usuario",
+            "titulo": "Abre la app",
+            "descripcion": "El usuario abre la app al inicio del día.",
+            "pantalla": "Dashboard — Sin plan activo"
+          },
+          {
+            "id": "fb-2",
+            "orden": 2,
+            "tipo": "respuesta-sistema",
+            "titulo": "El sistema detecta que no hay plan",
+            "descripcion": "El Dashboard muestra un estado vacío con el llamado a planificar el día.",
+            "pantalla": "Dashboard — Estado vacío"
+          },
+          {
+            "id": "fb-3",
+            "orden": 3,
+            "tipo": "accion-usuario",
+            "titulo": "Ingresa a Mi Plan",
+            "descripcion": "El usuario navega a la sección Mi Plan para crear su plan del día.",
+            "pantalla": "Mi Plan"
+          },
+          {
+            "id": "fb-4",
+            "orden": 4,
+            "tipo": "accion-usuario",
+            "titulo": "Agrega la primera tarea",
+            "descripcion": "El usuario completa nombre de la tarea y tiempo estimado.",
+            "pantalla": "Mi Plan — Agregar tarea"
+          },
+          {
+            "id": "fb-5",
+            "orden": 5,
+            "tipo": "accion-usuario",
+            "titulo": "Repite para cada tarea del día",
+            "descripcion": "El usuario agrega todas las tareas que planea realizar, con sus tiempos estimados.",
+            "pantalla": "Mi Plan — Lista en construcción"
+          },
+          {
+            "id": "fb-6",
+            "orden": 6,
+            "tipo": "accion-usuario",
+            "titulo": "Marca actividades inamovibles",
+            "descripcion": "El usuario señala las tareas que no pueden moverse (clases, reuniones, compromisos fijos).",
+            "pantalla": "Mi Plan — Actividades inamovibles"
+          },
+          {
+            "id": "fb-7",
+            "orden": 7,
+            "tipo": "accion-usuario",
+            "titulo": "Confirma el plan",
+            "descripcion": "El usuario presiona confirmar para activar el plan del día.",
+            "pantalla": "Mi Plan — Confirmación"
+          },
+          {
+            "id": "fb-8",
+            "orden": 8,
+            "tipo": "respuesta-sistema",
+            "titulo": "El sistema activa el Dashboard",
+            "descripcion": "El Dashboard se activa con la primera tarea del plan lista para ejecutar y el timer preparado.",
+            "pantalla": "Dashboard — Plan activo"
+          }
+        ]
+      }
+    ]
+  },
+  "isPublished": true
+}
