@@ -43,7 +43,7 @@ app.use((req, res, next) => {
 app.use('/api/ux-sections', require('./routes/uxSections'));
 
 // 404 handler
-app.use('*', (req, res) => res.status(404).json({ error: 'Ruta no encontrada' }));
+app.use((req, res) => res.status(404).json({ error: 'Ruta no encontrada' }));
 
 // Error handler
 app.use((err, req, res, next) => {
