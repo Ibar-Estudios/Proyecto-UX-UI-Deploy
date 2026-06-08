@@ -1,0 +1,134 @@
+{
+  "sectionName": "UserJourney",
+  "title": "User Journey Map — Matías 🗺️",
+  "description": "Recorrido emocional y funcional del usuario a través de las 5 etapas clave, desde que detecta el problema hasta encontrar el producto ideal.",
+  "data": {
+    "etapas": [
+      {
+        "numero": 1,
+        "nombre": "Detecta el problema",
+        "color": "#6B46C1",
+        "acciones": [
+          "Llega al fin del día con tareas sin completar",
+          "Se da cuenta que se le fue el tiempo sin darse cuenta",
+          "Deja el gym por acumulación de actividades"
+        ],
+        "pensamientos": [
+          "¿Por qué no puedo terminar lo que planeo?",
+          "Me falta disciplina, no tiempo",
+          "Así no puedo seguir"
+        ],
+        "emocion": "Frustrado y agotado",
+        "emoji": "😟",
+        "curva": 10,
+        "dolores": [
+          "No sabe por qué falla",
+          "Acumulación genera ansiedad"
+        ],
+        "oportunidades": [
+          "Onboarding que le explique por qué falla, no solo cómo usar la app"
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "Busca solución",
+        "color": "#2B6CB0",
+        "acciones": [
+          "Googlea apps de productividad",
+          "Pide recomendaciones a amigos",
+          "Descarga varias apps o empieza a usar IAs"
+        ],
+        "pensamientos": [
+          "Seguro hay algo que me ayude",
+          "Quiero algo simple, no complicado",
+          "Ojalá no me lleve tiempo configurarlo"
+        ],
+        "emocion": "Esperanzado pero escéptico",
+        "emoji": "🤔",
+        "curva": 45,
+        "dolores": [
+          "Demasiadas opciones",
+          "Apps complejas de configurar"
+        ],
+        "oportunidades": [
+          "Setup en menos de 60 segundos, sin fricción"
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "Prueba herramientas",
+        "color": "#B7791F",
+        "acciones": [
+          "Configura la herramienta",
+          "Carga sus tareas y horarios",
+          "Intenta seguir el plan los primeros días"
+        ],
+        "pensamientos": [
+          "Esto parece que va a funcionar",
+          "Voy a intentarlo en serio esta vez",
+          "Es muy complejo, pero le doy una chance"
+        ],
+        "emocion": "Motivado pero inseguro",
+        "emoji": "😐",
+        "curva": 35,
+        "dolores": [
+          "Setup costoso en tiempo",
+          "Sin feedback ni incentivo"
+        ],
+        "oportunidades": [
+          "Primer logro visible en el día 1 para generar enganche"
+        ]
+      },
+      {
+        "numero": 4,
+        "nombre": "Falla en la ejecución",
+        "color": "#9B2C2C",
+        "acciones": [
+          "Un imprevisto rompe el plan",
+          "Se distrae y pierde la noción del tiempo",
+          "Deja de usar la herramienta gradualmente"
+        ],
+        "pensamientos": [
+          "Otra vez lo mismo",
+          "La app no me ayudó para nada",
+          "Ya no sé qué probar"
+        ],
+        "emocion": "Decepcionado y ansioso",
+        "emoji": "😞",
+        "curva": 5,
+        "dolores": [
+          "Pierde noción del tiempo",
+          "Imprevistos rompen el plan"
+        ],
+        "oportunidades": [
+          "Alertas proactivas antes de que el tiempo se escape"
+        ]
+      },
+      {
+        "numero": 5,
+        "nombre": "Producto ideal",
+        "color": "#276749",
+        "acciones": [
+          "Recibe alertas en tiempo real",
+          "Completa tareas y ve su progreso",
+          "Genera hábito con recompensas"
+        ],
+        "pensamientos": [
+          "Esto sí me entiende",
+          "Me avisa antes de que sea tarde",
+          "Por fin algo que genera hábito"
+        ],
+        "emocion": "Acompañado y en control",
+        "emoji": "😊",
+        "curva": 90,
+        "dolores": [
+          "Sin dolores si el producto acompaña"
+        ],
+        "oportunidades": [
+          "Sistema de recompensas y progreso visible que genere hábito"
+        ]
+      }
+    ]
+  },
+  "isPublished": true
+}

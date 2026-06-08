@@ -1,0 +1,44 @@
+{
+  "sectionName": "Encuestas",
+  "title": "Encuestas — Análisis de Resultados 📊",
+  "description": "Relevamiento cuantitativo realizado a 10 usuarios para validar el problema de gestión del tiempo y detectar patrones de comportamiento.",
+  "content": "<p class=\"mb-8 leading-relaxed text-lg text-slate-800\">Se realizó una encuesta a <strong class=\"text-slate-900 font-black\">10 personas</strong> con el objetivo de entender cómo gestionan su tiempo, qué herramientas usan y dónde fallan en la ejecución de sus tareas diarias. Podés ver el formulario completo con todas las respuestas en el siguiente enlace:</p><p class=\"mb-8\"><a href=\"https://docs.google.com/forms/d/10hVpDzWMn2alK8uuDH7vnLwWOaNAi7ZdcFlW9ndMbSY/edit?usp=forms_home&ouid=115258720076925552099&ths=true\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline font-semibold hover:text-blue-800\">📋 Ver encuesta completa y respuestas →</a></p>",
+  "data": {
+    "👥 Muestra": [
+      "10 personas encuestadas — rango etario predominante: 18 a 30 años",
+      "Perfil mixto: estudiantes universitarios, trabajadores y personas que combinan ambas actividades",
+      "Actividades extra: gym, deporte, guitarra, teatro, comedia musical, tareas del hogar, emprendimiento, videojuegos, redes sociales"
+    ],
+    "🎯 Objetivos de la encuesta": [
+      "Comprender por qué el problema de gestión del tiempo está presente en la sociedad y cómo se manifiesta en la vida cotidiana de los usuarios",
+      "Identificar la forma de pensar y organizarse de distintos perfiles con respecto al manejo de sus tiempos",
+      "Detectar si los encuestados usan herramientas de organización, cuáles, y por qué no les resultan suficientes",
+      "Validar si existe un patrón común entre personas con múltiples responsabilidades que explique por qué el problema se produce",
+      "Identificar perfiles extremos: personas que logran completar todo lo planeado (como Gastón) y personas que debieron abandonar actividades por saturación o viajes (como Constantino y Azul)",
+      "Construir una visión panorámica del problema que permita entender no solo qué falla, sino por qué falla"
+    ],
+    "📊 Hallazgos clave": {
+      "¿Usan herramientas para organizarse?": "5 dicen Sí (Google Calendar, IAs, apps de calendario, Canva, etc.) · 5 dicen No (ningún sistema)",
+      "¿Dejaron tareas sin completar en los últimos 3 días?": "7 de 10 dijeron que Sí — la mayoría falla en completar sus tareas",
+      "¿Con qué frecuencia planifican?": "Todos los días: 3 personas · Algunas veces: 5 personas · Rara vez: 1 persona · Solo 1 cumple todo lo planeado",
+      "¿Qué actividad les consume más tiempo?": "El estudio, limpiar, diseñar para emprendimiento, trabajo, teatro (viajes largos)"
+    },
+    "💬 Frases destacadas": [
+      "\"Por que tengo que trabajar, por que soy pobre :V.\" — Loquita 2.0",
+      "\"Que me avisen constantemente cómo llevo el manejo de los tiempos.\" — Francisco",
+      "\"Me concentro tanto que pierdo la noción del tiempo.\" — Francisco",
+      "\"Terminé dejando el gimnasio por temas de tiempo.\" — Constantino",
+      "\"Organizar mejor mis horarios para cada actividad, ya que rotan cada semana.\" — Barbara",
+      "\"Me gustaría llevar un control más estructurado sobre cómo organizo mi tiempo.\" — Sebastián",
+      "\"El viaje me consume demasiado tiempo.\" — Azul"
+    ],
+    "✅ Conclusiones": [
+      "El problema está validado: la mayoría no completa sus tareas diarias independientemente de si planifican o no",
+      "Se detectó un patrón claro: planificar no garantiza ejecutar — el quiebre ocurre durante la ejecución, no en la planificación",
+      "Existe una división exacta entre quienes usan herramientas y quienes no — pero ambos grupos falla por igual, lo que confirma que las herramientas actuales no resuelven el problema de fondo",
+      "Se identificaron perfiles extremos que enriquecen el análisis: Gastón como caso control (logra organizarse), Constantino y Azul como casos críticos (abandonaron actividades importantes por saturación o viajes)",
+      "Las necesidades clave que emergen son: alertas en tiempo real, flexibilidad ante imprevistos y un sistema que genere hábito — no solo que informe"
+    ]
+  },
+  "isPublished": true
+}

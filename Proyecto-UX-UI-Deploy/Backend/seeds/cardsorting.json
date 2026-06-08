@@ -1,0 +1,240 @@
+{
+  "sectionName": "CardSorting",
+  "title": "CardSorting 🃏",
+  "description": "Ejercicio de arquitectura de información donde 4 usuarios agruparon 20 funcionalidades según su criterio mental natural.",
+  "data": {
+    "tarjetas": [
+      "Crear tarea con fecha y hora",
+      "Recordatorio antes de que empiece una tarea",
+      "Alerta de tiempo crítico en tiempo real",
+      "Barra de progreso diario",
+      "Marcar tarea como completada",
+      "Celebración visual al alcanzar una meta",
+      "Notificación cuando una tarea lleva más tiempo del estimado",
+      "Reorganizar el plan ante imprevistos",
+      "Racha de días consecutivos cumplidos",
+      "Crear meta semanal",
+      "Seguimiento de avance hacia una meta",
+      "Resumen semanal de productividad",
+      "Configuración de horarios disponibles por día",
+      "Sistema de recompensas al completar tareas",
+      "Marcar actividades inamovibles del día",
+      "Perfil de usuario con historial de logros",
+      "Modo de horario flexible para semanas variables",
+      "Temporizador por tarea",
+      "Resumen del día al finalizar",
+      "Configuración inicial rápida"
+    ],
+    "participantes": [
+      {
+        "id": "francisco",
+        "nombre": "Francisco",
+        "rol": "Entrevistado",
+        "totalUsadas": 13,
+        "categorias": [
+          {
+            "nombre": "Metas semanales",
+            "tarjetas": [
+              "Crear meta semanal",
+              "Seguimiento de avance hacia una meta",
+              "Resumen semanal de productividad"
+            ]
+          },
+          {
+            "nombre": "Metas de estudio",
+            "tarjetas": [
+              "Configuración de horarios disponibles por día",
+              "Crear tarea con fecha y hora",
+              "Recordatorio antes de que empiece una tarea",
+              "Alerta de tiempo crítico en tiempo real",
+              "Barra de progreso diario",
+              "Marcar tarea como completada",
+              "Celebración visual al alcanzar una meta",
+              "Notificación cuando una tarea lleva más tiempo del estimado",
+              "Reorganizar el plan ante imprevistos",
+              "Racha de días consecutivos cumplidos"
+            ]
+          }
+        ],
+        "sinCategorizar": [
+          "Sistema de recompensas al completar tareas",
+          "Marcar actividades inamovibles del día",
+          "Perfil de usuario con historial de logros",
+          "Modo de horario flexible para semanas variables",
+          "Temporizador por tarea",
+          "Resumen del día al finalizar",
+          "Configuración inicial rápida"
+        ]
+      },
+      {
+        "id": "maria",
+        "nombre": "María",
+        "rol": "Encuestada",
+        "totalUsadas": 20,
+        "categorias": [
+          {
+            "nombre": "Logros",
+            "tarjetas": [
+              "Celebración visual al alcanzar una meta",
+              "Sistema de recompensas al completar tareas",
+              "Racha de días consecutivos cumplidos"
+            ]
+          },
+          {
+            "nombre": "Ajuste",
+            "tarjetas": [
+              "Configuración inicial rápida",
+              "Configuración de horarios disponibles por día",
+              "Marcar actividades inamovibles del día",
+              "Perfil de usuario con historial de logros",
+              "Modo de horario flexible para semanas variables"
+            ]
+          },
+          {
+            "nombre": "Objetivos",
+            "tarjetas": [
+              "Seguimiento de avance hacia una meta",
+              "Marcar tarea como completada",
+              "Crear meta semanal",
+              "Barra de progreso diario",
+              "Crear tarea con fecha y hora"
+            ]
+          },
+          {
+            "nombre": "Informes",
+            "tarjetas": [
+              "Resumen semanal de productividad",
+              "Resumen del día al finalizar"
+            ]
+          },
+          {
+            "nombre": "Gestión de tiempo",
+            "tarjetas": [
+              "Notificación cuando una tarea lleva más tiempo del estimado",
+              "Temporizador por tarea",
+              "Alerta de tiempo crítico en tiempo real",
+              "Recordatorio antes de que empiece una tarea",
+              "Reorganizar el plan ante imprevistos"
+            ]
+          }
+        ],
+        "sinCategorizar": []
+      },
+      {
+        "id": "martin",
+        "nombre": "Martín",
+        "rol": "Encuestado",
+        "totalUsadas": 20,
+        "nota": "No nombró categorías — cada tarjeta fue colocada en un grupo individual.",
+        "categorias": [
+          { "nombre": "Sin nombre", "tarjetas": ["Notificación cuando una tarea lleva más tiempo del estimado"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Marcar tarea como completada"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Recordatorio antes de que empiece una tarea"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Crear tarea con fecha y hora"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Temporizador por tarea"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Barra de progreso diario"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Alerta de tiempo crítico en tiempo real"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Resumen del día al finalizar"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Marcar actividades inamovibles del día"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Crear meta semanal"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Seguimiento de avance hacia una meta"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Resumen semanal de productividad"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Configuración de horarios disponibles por día"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Sistema de recompensas al completar tareas"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Perfil de usuario con historial de logros"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Modo de horario flexible para semanas variables"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Celebración visual al alcanzar una meta"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Racha de días consecutivos cumplidos"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Reorganizar el plan ante imprevistos"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Configuración inicial rápida"] }
+        ],
+        "sinCategorizar": []
+      },
+      {
+        "id": "sebastian",
+        "nombre": "Sebastián",
+        "rol": "Encuestado",
+        "totalUsadas": 20,
+        "nota": "No nombró categorías — cada tarjeta fue colocada en un grupo individual.",
+        "categorias": [
+          { "nombre": "Sin nombre", "tarjetas": ["Marcar tarea como completada"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Celebración visual al alcanzar una meta"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Resumen semanal de productividad"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Crear tarea con fecha y hora"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Crear meta semanal"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Seguimiento de avance hacia una meta"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Alerta de tiempo crítico en tiempo real"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Notificación cuando una tarea lleva más tiempo del estimado"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Temporizador por tarea"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Barra de progreso diario"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Recordatorio antes de que empiece una tarea"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Reorganizar el plan ante imprevistos"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Racha de días consecutivos cumplidos"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Configuración inicial rápida"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Configuración de horarios disponibles por día"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Marcar actividades inamovibles del día"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Perfil de usuario con historial de logros"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Modo de horario flexible para semanas variables"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Sistema de recompensas al completar tareas"] },
+          { "nombre": "Sin nombre", "tarjetas": ["Resumen del día al finalizar"] }
+        ],
+        "sinCategorizar": []
+      }
+    ],
+    "clusters": [
+      {
+        "id": "gestion-tiempo",
+        "nombre": "Gestión de tiempo en ejecución",
+        "consenso": "alto",
+        "color": "indigo",
+        "tarjetas": [
+          "Alerta de tiempo crítico en tiempo real",
+          "Notificación cuando una tarea lleva más tiempo del estimado",
+          "Temporizador por tarea",
+          "Recordatorio antes de que empiece una tarea",
+          "Reorganizar el plan ante imprevistos"
+        ]
+      },
+      {
+        "id": "progreso-logros",
+        "nombre": "Progreso y logros",
+        "consenso": "alto",
+        "color": "emerald",
+        "tarjetas": [
+          "Celebración visual al alcanzar una meta",
+          "Sistema de recompensas al completar tareas",
+          "Racha de días consecutivos cumplidos",
+          "Barra de progreso diario",
+          "Marcar tarea como completada"
+        ]
+      },
+      {
+        "id": "planificacion-metas",
+        "nombre": "Planificación y metas",
+        "consenso": "medio",
+        "color": "violet",
+        "tarjetas": [
+          "Crear tarea con fecha y hora",
+          "Crear meta semanal",
+          "Seguimiento de avance hacia una meta",
+          "Resumen semanal de productividad",
+          "Resumen del día al finalizar"
+        ]
+      },
+      {
+        "id": "configuracion",
+        "nombre": "Configuración y perfil",
+        "consenso": "medio-bajo",
+        "color": "slate",
+        "tarjetas": [
+          "Configuración inicial rápida",
+          "Configuración de horarios disponibles por día",
+          "Marcar actividades inamovibles del día",
+          "Perfil de usuario con historial de logros",
+          "Modo de horario flexible para semanas variables"
+        ]
+      }
+    ]
+  },
+  "isPublished": true
+}

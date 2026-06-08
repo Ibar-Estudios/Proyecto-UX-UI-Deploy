@@ -1,0 +1,99 @@
+{
+  "sectionName": "Entrevistas",
+  "title": "Entrevistas — Investigación Cualitativa 🎙️",
+  "description": "Conversaciones en profundidad con 4 usuarios reales para comprender el por qué detrás de sus comportamientos y validar la proto-persona.",
+  "content": "<p class=\"mb-6 leading-relaxed text-lg text-slate-800\">Las entrevistas son conversaciones en profundidad con usuarios reales. Mientras la encuesta nos da <strong class=\"text-slate-900 font-black\">amplitud</strong> — muchas personas, respuestas cortas —, la entrevista nos da <strong class=\"text-slate-900 font-black\">profundidad</strong>: entendemos el <em>por qué</em> detrás de los comportamientos.</p><p class=\"mb-6 leading-relaxed text-lg text-slate-800\">Para llevarlas adelante, tuvimos en cuenta los siguientes principios metodológicos:</p><ul class=\"mb-8 space-y-2 text-slate-700 text-base\"><li class=\"flex items-start gap-3\"><span class=\"text-blue-500 mt-1\">→</span> No es un interrogatorio, es una conversación natural</li><li class=\"flex items-start gap-3\"><span class=\"text-blue-500 mt-1\">→</span> Las preguntas son abiertas — nunca de sí o no</li><li class=\"flex items-start gap-3\"><span class=\"text-blue-500 mt-1\">→</span> Escuchamos más de lo que hablamos</li><li class=\"flex items-start gap-3\"><span class=\"text-blue-500 mt-1\">→</span> Buscamos emociones, frustraciones y motivaciones reales</li><li class=\"flex items-start gap-3\"><span class=\"text-blue-500 mt-1\">→</span> Nunca inducimos la respuesta — dejamos que el usuario hable libremente</li></ul><p class=\"mb-4 leading-relaxed text-lg text-slate-800 italic border-l-4 border-indigo-400 pl-6\">El objetivo no es confirmar lo que ya creemos, sino descubrir lo que no sabemos.</p>",
+  "data": {
+    "👥 Muestra — Entrevistados": [
+      "🟠 Francisco — Estudiante y trabajador que planifica su día pero pierde el control durante la ejecución por falta de percepción del tiempo",
+      "🟡 Constantino — Estudiante con múltiples actividades que debió abandonar el gimnasio por saturación y acumulación de responsabilidades",
+      "🟣 Barbara — Emprendedora que usa múltiples herramientas simultáneamente pero sigue fallando en la ejecución por falta de disciplina y hábito",
+      "🟢 Gastón — Perfil control: logra cumplir lo planificado mediante una mentalidad de adaptación y gestión flexible"
+    ],
+    "🎯 Objetivos de las entrevistas": [
+      "Comprender en profundidad el por qué detrás de los comportamientos detectados en la encuesta",
+      "Identificar las causas raíz del fallo en la ejecución — no solo el síntoma (tareas incompletas)",
+      "Descubrir qué emociones, frustraciones y motivaciones reales experimentan los usuarios en su día a día",
+      "Validar o refutar la proto-persona construida previamente a partir de suposiciones",
+      "Detectar patrones comunes entre perfiles distintos que confirmen la necesidad del producto"
+    ],
+    "🟠 Preguntas — Francisco": [
+      "1. ¿Cómo es un día tuyo típico de principio a fin?",
+      "2. ¿Cómo planificás tu día y en qué momento lo hacés?",
+      "3. ¿En qué momento sentís que el plan empieza a desmoronarse?",
+      "4. ¿Podés contarme una situación concreta donde perdiste la noción del tiempo?",
+      "5. Si tuvieras algo que te avisara cómo vas con tus tiempos, ¿cómo te imaginarías que funciona idealmente?",
+      "6. ¿Qué sentís cuando llegás al final del día y no completaste lo que tenías planeado?"
+    ],
+    "🟠 Análisis — Francisco": [
+      "Su problema central no es la agenda sino la noción del tiempo — tiene todo planificado pero no percibe cuándo está en tiempo crítico",
+      "Subestima tareas largas como informes o lecturas que pueden llevarle hasta 6 horas",
+      "Le frustra no tener un incentivo visible al completar objetivos — tachar algo termina demasiado pronto",
+      "Visión ideal: algo que recuerde lo pendiente y mantenga el incentivo con seguimiento de progreso en tiempo real",
+      "💡 Insight: El problema no es saber qué hacer, sino no percibir el tiempo que pasa. Necesita alertas en tiempo real y recompensas visibles por cada avance."
+    ],
+    "🟡 Preguntas — Constantino": [
+      "1. ¿Cómo era tu rutina cuando todavía ibas al gimnasio?",
+      "2. ¿En qué momento decidiste dejarlo? ¿Fue una decisión o fue pasando?",
+      "3. ¿Sentís que si organizaras mejor tu tiempo podrías retomarlo?",
+      "4. ¿Cómo decidís hoy qué actividades priorizás?",
+      "5. ¿Qué tipo de tareas son las que más te consumen?",
+      "6. ¿Qué sería lo primero que esperarías de una herramienta de organización?"
+    ],
+    "🟡 Análisis — Constantino": [
+      "Cuando iba al gimnasio tenía un sistema basado en objetivos semanales con flexibilidad de horario, no en horarios fijos",
+      "Dejó el gimnasio por acumulación de actividades simultáneas: clases particulares, facultad y traslados largos",
+      "Reconoce que el problema no era el tiempo sino la gestión del estrés por saturación",
+      "Herramienta ideal: algo como Notion pero más simple — lista de tareas, calendario y recordatorios con días de antelación",
+      "Tiene claro que no sirve completar algo a medias — prefiere objetivos reales cumplidos al 100%",
+      "💡 Insight: La acumulación sin gestión clara genera ansiedad que deriva en abandono. El producto debe distribuir la carga de forma realista antes de que se vuelva insostenible."
+    ],
+    "🟣 Preguntas — Barbara": [
+      "1. ¿Qué herramientas usás hoy para organizarte y cómo las combinás?",
+      "2. ¿Las fuiste sumando porque ninguna te alcanzaba sola?",
+      "3. ¿Cuál es el momento donde todo se desorganiza a pesar de haber planificado?",
+      "4. ¿Qué tiene cada herramienta que te gusta y qué le falta?",
+      "5. Si pudieras tener una sola herramienta, ¿qué tendría que hacer sí o sí?",
+      "6. ¿Qué pasa por tu cabeza cuando ves que el plan del día no se cumplió?"
+    ],
+    "🟣 Análisis — Barbara": [
+      "Sistema híbrido: cuaderno físico, inteligencia artificial y herramientas de diseño como Canva o Capcut",
+      "Sumó herramientas por influencia de emprendedores que sigue, no porque ninguna le alcanzara sola",
+      "Su mayor factor de desorganización: el horario rotativo de su pareja — su semana cambia completamente cada semana",
+      "Le gustan las inteligencias artificiales por ser prácticas y rápidas, pero desconfía de la veracidad de la información",
+      "Identifica claramente que su problema no es falta de tiempo sino falta de disciplina y constancia",
+      "Cuando el plan falla: se frustra, llora, pero luego busca alternativas — tiene una resiliencia notable",
+      "💡 Insight: El problema no es planificar, es ejecutar con constancia. Necesita gamificación, recompensas y acompañamiento emocional para mantener el hábito."
+    ],
+    "🟢 Preguntas — Gastón": [
+      "1. ¿Cómo organizás tu semana? ¿Tenés algún sistema o rutina fija?",
+      "2. ¿Siempre fuiste organizado o lo fuiste desarrollando con el tiempo?",
+      "3. ¿Hubo algún momento donde la organización se te fue de las manos?",
+      "4. Cuando algo inesperado rompe tu plan, ¿cómo lo manejás?",
+      "5. ¿Usás alguna herramienta o lo hacés todo mentalmente?",
+      "6. ¿Qué consejo le darías a alguien que quiere organizarse pero no sabe por dónde empezar?"
+    ],
+    "🟢 Análisis — Gastón": [
+      "Organiza su semana sobre la marcha, sin ningún sistema formal — lo que contrasta con su respuesta en la encuesta donde afirmó cumplir todo lo planeado",
+      "Reconoce que cuando la agenda está muy cargada, la organización se le va de las manos",
+      "Su clave no es un método sino una mentalidad: acepta que no siempre se puede seguir el plan al pie de la letra",
+      "Admite que a veces peca de exigente consigo mismo",
+      "Consejo: tener un orden mínimo, escrito o no, e intentar seguirlo sin obsesionarse",
+      "💡 Insight: La organización no es perfección, es adaptación. El producto no debería generar culpa cuando el plan falla, sino ayudar a reacomodarse."
+    ],
+    "💬 Frases más poderosas": [
+      "\"No hay algo que me vaya diciendo: estás en tiempo crítico.\" — Francisco",
+      "\"Probablemente dejé el gimnasio por la ansiedad que me generaba la sobreacumulación.\" — Constantino",
+      "\"Si dejo de hacer algo no es por falta de tiempo, sino de disciplina.\" — Barbara",
+      "\"Intentar darnos siempre la mejor gestión posible dentro de nuestras posibilidades.\" — Gastón"
+    ],
+    "📋 Informe — Validación de la proto-persona": [
+      "Antes de las entrevistas, la proto-persona era una suposición basada en observaciones generales: un joven de entre 18 y 30 años con múltiples responsabilidades que no lograba completar sus tareas diarias.",
+      "Las entrevistas confirmaron y enriquecieron ese perfil con datos reales. Los 4 entrevistados comparten el mismo resultado — tareas incompletas y frustración — pero por causas distintas: Francisco falla por pérdida de la noción del tiempo, Constantino por saturación y ansiedad, Barbara por falta de disciplina y hábito, y Gastón — el perfil control — lo resuelve con adaptación mental, no con herramientas.",
+      "Este hallazgo fue clave: el problema no tiene una sola causa raíz, sino múltiples. Sin embargo, todos convergen en la misma necesidad: acompañamiento durante la ejecución, no solo planificación previa.",
+      "A partir de esta validación, la proto-persona se transformó en el User Persona definitivo: Matías García, 21 años, estudiante universitario y trabajador part-time, que sintetiza los rasgos más representativos de los 4 perfiles entrevistados.",
+      "La frase que mejor lo representa surgió directamente de Francisco, pero podría haberla dicho cualquiera de los entrevistados: 'No hay algo que me vaya diciendo: estás en tiempo crítico.' Esa frase se convirtió en el norte del proyecto."
+    ]
+  },
+  "isPublished": true
+}

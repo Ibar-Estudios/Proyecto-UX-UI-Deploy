@@ -1,0 +1,53 @@
+{
+  "sectionName": "MapaEmpatia",
+  "title": "Mapa de Empatía — Matías, 21 años 🧠",
+  "description": "Síntesis empática del usuario representativo. Estudiante + trabajador. Construido a partir de las encuestas y entrevistas realizadas.",
+  "content": "<p class=\"mb-8 leading-relaxed text-lg text-slate-800\">El mapa de empatía nos permite ponernos en el lugar de <strong class=\"text-slate-900 font-black\">Matías</strong>, nuestro usuario representativo, y entender no solo lo que hace, sino lo que piensa, siente, escucha y ve en su día a día. Esta herramienta sintetiza los hallazgos cualitativos de las 4 entrevistas y los datos de la encuesta en un único perfil empático.</p><p class=\"mb-8 leading-relaxed text-lg text-slate-800 italic border-l-4 border-blue-400 pl-6\">\"No hay algo que me diga: estás en tiempo crítico.\" — Francisco, síntesis de los 4 perfiles</p>",
+  "data": {
+    "🧠 Piensa y siente": [
+      "Siente que el día 'se le va' sin avanzar",
+      "Se pregunta por qué no puede cumplir",
+      "Cree que le falta disciplina, no tiempo",
+      "Le frustra no ver incentivos al terminar",
+      "Teme acumular tanto que colapse",
+      "Quiere sentir que tiene todo bajo control"
+    ],
+    "👀 Ve": [
+      "Amigos y compañeros también sobrepasados",
+      "Influencers y referentes usando herramientas",
+      "Compañeros que sí logran organizarse",
+      "Muchas apps de productividad complejas",
+      "El tiempo pasar sin percibir las horas",
+      "Consecuencias reales: gym abandonado"
+    ],
+    "👂🏻 Escucha": [ 
+      "\"Tenés que organizarte mejor\"",
+      "\"Usá tal app, a mí me funciona\"",
+      "\"Si tuvieras disciplina lo lograrías\"",
+      "Notificaciones de entregas y parciales",
+      "Consejos contradictorios de su entorno"
+    ],
+    "🗣️ Dice y hace": [
+      "Planifica pero no siempre ejecuta",
+      "Usa cuadernos, IAs o calendarios",
+      "Dice \"mañana lo hago\" con frecuencia",
+      "Improvisa cuando el plan se rompe",
+      "Abandona herramientas que le complican"
+    ],
+    "💢 Frustraciones (Dolores)": [
+      "Pierde la noción del tiempo al estudiar",
+      "La sobrecarga le genera ansiedad real",
+      "Las apps son complejas o no generan hábito",
+      "Llega al fin del día con tareas pendientes",
+      "No hay incentivo visible al completar algo"
+    ],
+    "💪🏻 Motivaciones (Deseos)": [
+      "Quiere retomar actividades que abandonó",
+      "Desea sentir control y orgullo de su semana",
+      "Busca recompensas y progreso visible",
+      "Quiere una herramienta simple que acompañe",
+      "Necesita alertas en tiempo real"
+    ]
+  },
+  "isPublished": true
+}

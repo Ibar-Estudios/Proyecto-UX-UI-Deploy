@@ -1,0 +1,74 @@
+{
+  "sectionName": "Benchmarking",
+  "title": "Benchmarking — Análisis de la Competencia 🔍",
+  "description": "Análisis comparativo de las 3 principales aplicaciones del mercado para identificar fortalezas, debilidades y oportunidades de diferenciación.",
+  "content": "<p class=\"mb-8 leading-relaxed text-lg text-slate-800\">El Benchmarking nos permite estudiar el mercado actual antes de diseñar nuestra solución. No comparamos nuestra app con la competencia — porque nuestra app todavía no existe. Lo que hacemos es <strong class=\"text-slate-900 font-black\">analizar qué hay, qué funciona y qué falla</strong>, para encontrar el espacio donde nuestro producto puede diferenciarse de forma genuina.</p><p class=\"mb-8 leading-relaxed text-lg text-slate-800\">Las 3 aplicaciones seleccionadas fueron mencionadas directamente por los usuarios en las entrevistas y encuestas: <strong class=\"text-slate-900\">Google Calendar</strong> (Francisco), <strong class=\"text-slate-900\">Notion</strong> (Constantino) y <strong class=\"text-slate-900\">Todoist</strong> — representando tres categorías distintas del mercado de productividad.</p>",
+  "data": {
+    "📱 Aplicaciones analizadas": [
+      "🟦 Google Calendar — App de calendario y agenda de Google. Permite crear eventos, configurar recordatorios y visualizar el día, semana o mes. Es la herramienta más usada por su integración con el ecosistema Google y su disponibilidad en todos los dispositivos.",
+      "⬛ Notion — Plataforma de organización todo en uno. Combina notas, bases de datos, listas de tareas y calendarios en un solo lugar. Es altamente personalizable pero requiere tiempo de configuración y aprendizaje.",
+      "🔴 Todoist — Aplicación de gestión de tareas con sistema de prioridades, etiquetas y fechas de vencimiento. Es simple y enfocada exclusivamente en tareas, con versión gratuita y de pago."
+    ],
+    "🎯 Objetivos del análisis": [
+      "Identificar qué herramientas usa actualmente nuestro público objetivo y por qué",
+      "Detectar las fortalezas de cada app para no ignorarlas en nuestro diseño",
+      "Encontrar las debilidades y fricciones que generan abandono en los usuarios",
+      "Determinar qué puede ofrecer nuestra app que ninguna de estas tres tiene"
+    ],
+    "⏱️ Cantidad de pasos por acción": [
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "📋 ACCIÓN 1 — Crear una tarea con fecha y hora",
+      "🟦 Google Calendar: 4 pasos — Abrir app → Tocar el día → Completar título, hora y descripción → Guardar",
+      "⬛ Notion: 7 pasos — Abrir app → Ir a la base de datos correcta → Nueva entrada → Completar propiedades (título, fecha, hora, estado) → Configurar vista → Guardar → Volver al panel",
+      "🔴 Todoist: 3 pasos — Abrir app → Tocar '+' → Escribir tarea con fecha en lenguaje natural → Guardar",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "📋 ACCIÓN 2 — Configurar un recordatorio o alerta",
+      "🟦 Google Calendar: 3 pasos — Abrir evento → Agregar notificación → Elegir tiempo de antelación",
+      "⬛ Notion: No disponible de forma nativa — requiere integración con apps externas como Zapier o calendarios externos",
+      "🔴 Todoist: 4 pasos — Abrir tarea → Tocar ícono de recordatorio → Elegir hora → Confirmar (solo en versión paga)",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "📋 ACCIÓN 3 — Ver el progreso del día",
+      "🟦 Google Calendar: Visible desde la pantalla principal — pero solo muestra eventos, no tareas ni progreso de completado",
+      "⬛ Notion: Requiere configurar una vista específica de calendario o tablero — no hay resumen automático del día",
+      "🔴 Todoist: Vista 'Hoy' disponible desde el menú — muestra tareas pendientes pero sin indicador de progreso visual",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "📋 ACCIÓN 4 — Reorganizar el plan ante un imprevisto",
+      "🟦 Google Calendar: 3 pasos — Mantener presionado el evento → Arrastrarlo a otro horario → Confirmar",
+      "⬛ Notion: 5 pasos — Ir a la tarea → Editar la fecha manualmente → Cambiar estado → Guardar → Actualizar vistas afectadas",
+      "🔴 Todoist: 2 pasos — Mantener presionada la tarea → Cambiar fecha con el selector rápido"
+    ],
+    "🔤 Análisis de vocabulario y errores": [
+      "🟦 Google Calendar: Vocabulario claro e intuitivo. No presenta errores de comunicación. Las acciones tienen nombres esperables por el usuario (Evento, Recordatorio, Invitados).",
+      "⬛ Notion: Vocabulario técnico que puede confundir al usuario nuevo — términos como 'Base de datos', 'Propiedad', 'Vista', 'Relación' requieren conocimiento previo. Error frecuente: el usuario no sabe dónde guardar qué tipo de información.",
+      "🔴 Todoist: Vocabulario simple y directo. Usa lenguaje natural para fechas ('mañana', 'próximo lunes'). Error menor: la diferenciación entre versión gratuita y paga no siempre es clara — funciones bloqueadas aparecen sin aviso previo."
+    ],
+    "🎨 Análisis de diseño": [
+      "🟦 Google Calendar: Diseño óptimo. Material Design consistente, colores claros, jerarquía visual bien definida. Adaptado a mobile y desktop.",
+      "⬛ Notion: Diseño básico/minimalista. Altamente flexible pero visualmente neutro — el usuario debe construir su propia experiencia visual, lo que requiere tiempo y criterio de diseño.",
+      "🔴 Todoist: Diseño óptimo. Interface limpia, uso efectivo del color para prioridades, dark mode disponible. Experiencia mobile muy pulida."
+    ],
+    "💪 Fortalezas y debilidades": [
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "🟦 GOOGLE CALENDAR",
+      "✅ Fortalezas: Integración total con el ecosistema Google · Curva de aprendizaje casi nula · Vista de calendario muy clara · Recordatorios nativos simples",
+      "❌ Debilidades: Solo gestiona eventos, no tareas · No tiene seguimiento de progreso · No distingue entre tiempo crítico y tiempo libre · No genera hábito ni recompensas",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "⬛ NOTION",
+      "✅ Fortalezas: Extremadamente flexible y personalizable · Combina notas, tareas y base de datos · Ideal para usuarios avanzados · Versión gratuita generosa",
+      "❌ Debilidades: Curva de aprendizaje muy alta · Requiere mucho tiempo de configuración inicial · Sin recordatorios nativos · Abrumador para usuarios nuevos · No está pensado para el ritmo académico",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "🔴 TODOIST",
+      "✅ Fortalezas: Interfaz simple y rápida · Lenguaje natural para fechas · Prioridades claras · Vista diaria efectiva · Multiplataforma",
+      "❌ Debilidades: Recordatorios solo en versión paga · Sin vista de progreso real del día · No avisa cuando el tiempo de una tarea se agota · Sin sistema de recompensas ni seguimiento de hábitos"
+    ],
+    "✅ Conclusiones del Benchmarking": [
+      "Las 3 aplicaciones planifican — ninguna acompaña. Permiten organizar el día pero no alertan cuando el tiempo se escapa ni ayudan a retomar el plan cuando algo falla.",
+      "Notion es la más poderosa pero la menos accesible para nuestro usuario objetivo. Constantino lo confirmó en su entrevista: 'quiero algo como Notion pero más simple'.",
+      "Google Calendar es la más usada porque tiene la menor fricción de entrada, pero no resuelve el problema real — solo registra eventos.",
+      "Todoist es la más cercana a lo que necesitamos, pero carece de alertas en tiempo real, progreso visual y sistema de recompensas — todo lo que nuestros usuarios pidieron.",
+      "El diferencial claro de nuestra app: ninguna de las 3 tiene alertas proactivas de tiempo crítico, ninguna genera recompensas por completar tareas, y ninguna está diseñada específicamente para jóvenes con horarios variables.",
+      "Hay un espacio real y no cubierto en el mercado: una app simple, con acompañamiento en tiempo real, que convierta la ejecución del día en un hábito sostenible."
+    ]
+  },
+  "isPublished": true
+}
