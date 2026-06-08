@@ -1,0 +1,121 @@
+{
+  "sectionName": "MapaDeSitio",
+  "title": "Mapa de Sitio 🗺️",
+  "description": "Arquitectura de la información definida a partir del CardSorting, el Dendrograma y la Matriz de Similitud. Refleja el modelo mental de los usuarios sobre cómo organizar las funcionalidades.",
+  "data": {
+    "criterio": "La arquitectura prioriza el acompañamiento en tiempo real como funcionalidad central, ubicando el Dashboard como hub de ejecución. La estructura surge directamente de los clusters de consenso alto detectados en el CardSorting.",
+    "nodos": [
+      {
+        "id": "onboarding",
+        "nombre": "Onboarding",
+        "icono": "👋",
+        "nivel": 0,
+        "color": "slate",
+        "descripcion": "Primera experiencia del usuario — configuración guiada en menos de 60 segundos",
+        "hijos": [
+          { "id": "bienvenida", "nombre": "Bienvenida", "nivel": 1 },
+          { "id": "config-horarios", "nombre": "Configuración de horarios", "nivel": 1 },
+          { "id": "primera-tarea", "nombre": "Primera tarea guiada", "nivel": 1 }
+        ]
+      },
+      {
+        "id": "dashboard",
+        "nombre": "Dashboard",
+        "icono": "⚡",
+        "nivel": 0,
+        "color": "indigo",
+        "descripcion": "Hub central de ejecución — muestra la tarea activa, el timer y el progreso del día en tiempo real",
+        "esCore": true,
+        "hijos": [
+          {
+            "id": "tarea-en-curso",
+            "nombre": "Tarea en curso",
+            "nivel": 1,
+            "hijos": [
+              { "id": "timer-activo", "nombre": "Timer activo", "nivel": 2 },
+              { "id": "alerta-tiempo-critico", "nombre": "Alerta de tiempo crítico", "nivel": 2 },
+              { "id": "marcar-completada", "nombre": "Marcar como completada", "nivel": 2 }
+            ]
+          },
+          { "id": "siguiente-tarea", "nombre": "Siguiente tarea", "nivel": 1 },
+          { "id": "progreso-dia", "nombre": "Progreso del día", "nivel": 1 }
+        ]
+      },
+      {
+        "id": "mi-plan",
+        "nombre": "Mi Plan",
+        "icono": "📋",
+        "nivel": 0,
+        "color": "violet",
+        "descripcion": "Planificación diaria y semanal en un mismo espacio — crear tareas y metas desde la misma sección",
+        "hijos": [
+          {
+            "id": "plan-diario",
+            "nombre": "Plan del día",
+            "nivel": 1,
+            "hijos": [
+              { "id": "agregar-tarea", "nombre": "Agregar tarea", "nivel": 2 },
+              { "id": "actividades-inamovibles", "nombre": "Actividades inamovibles", "nivel": 2 },
+              { "id": "reorganizar-imprevisto", "nombre": "Reorganizar ante imprevisto", "nivel": 2 }
+            ]
+          },
+          {
+            "id": "metas-semanales",
+            "nombre": "Metas semanales",
+            "nivel": 1,
+            "hijos": [
+              { "id": "crear-meta", "nombre": "Crear meta semanal", "nivel": 2 },
+              { "id": "seguimiento-meta", "nombre": "Seguimiento de avance", "nivel": 2 }
+            ]
+          },
+          { "id": "vista-semana", "nombre": "Vista semanal", "nivel": 1 }
+        ]
+      },
+      {
+        "id": "logros-progreso",
+        "nombre": "Logros & Progreso",
+        "icono": "🏆",
+        "nivel": 0,
+        "color": "emerald",
+        "descripcion": "Recompensas, rachas y estadísticas — todo lo que refuerza el hábito en un único espacio",
+        "hijos": [
+          {
+            "id": "logros",
+            "nombre": "Logros",
+            "nivel": 1,
+            "hijos": [
+              { "id": "celebracion-visual", "nombre": "Celebración visual", "nivel": 2 },
+              { "id": "badges", "nombre": "Badges desbloqueados", "nivel": 2 },
+              { "id": "racha", "nombre": "Racha de días", "nivel": 2 }
+            ]
+          },
+          {
+            "id": "estadisticas",
+            "nombre": "Estadísticas",
+            "nivel": 1,
+            "hijos": [
+              { "id": "resumen-dia", "nombre": "Resumen del día", "nivel": 2 },
+              { "id": "resumen-semana", "nombre": "Resumen semanal", "nivel": 2 },
+              { "id": "historial", "nombre": "Historial", "nivel": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ajustes",
+        "nombre": "Ajustes",
+        "icono": "⚙️",
+        "nivel": 0,
+        "color": "slate",
+        "descripcion": "Sección discreta de configuración — sin protagonismo en la navegación principal",
+        "hijos": [
+          { "id": "perfil", "nombre": "Perfil y historial de logros", "nivel": 1 },
+          { "id": "horarios", "nombre": "Horarios disponibles por día", "nivel": 1 },
+          { "id": "horario-flexible", "nombre": "Modo horario flexible", "nivel": 1 },
+          { "id": "notificaciones", "nombre": "Notificaciones", "nivel": 1 }
+        ]
+      }
+    ]
+  },
+  "isPublished": true
+}

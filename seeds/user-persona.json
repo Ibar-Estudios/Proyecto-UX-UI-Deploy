@@ -1,0 +1,74 @@
+{
+  "sectionName": "UserPersona",
+  "title": "User Personas — Matías & Valentina 👨🏻‍💼👩🏻‍💼",
+  "description": "Perfiles de usuario representativos construidos a partir de las entrevistas, encuestas y validación del proceso de research.",
+  "data": {
+    "personas": [
+      {
+        "id": "matias",
+        "nombre": "Matías García",
+        "edad": 21,
+        "profesion": "Estudiante universitario + trabajador part-time",
+        "ubicacion": "Buenos Aires, Argentina",
+        "frase": "No hay algo que me diga: estás en tiempo crítico.",
+        "biografia": "Matías cursa Sistemas en la UBA y trabaja como soporte técnico tres veces por semana. En general logra organizarse: tiene claro qué tiene que hacer y cuándo. El problema aparece en la ejecución — se concentra tanto en una tarea que pierde completamente la noción del tiempo, y cuando se da cuenta ya consumió horas que tenía asignadas a otra cosa. Sabe que no es falta de capacidad sino de disciplina sostenida, y entiende que eso es algo que se construye día a día. Lo que le falta no es un plan mejor, sino algo que lo acompañe mientras lo ejecuta.",
+        "justificacion": "Matías representa al usuario más frecuente del problema: planifica con intención pero falla en la ejecución por no percibir el tiempo que pasa. Su perfil sintetiza los hallazgos de Francisco (pérdida de noción temporal) y Gastón (perfil control que revela qué funciona).",
+        "objetivos": [
+          "Completar todas sus tareas del día sin llegar a la noche con la lista intacta",
+          "Mantener el foco en cada tarea sin perder la noción de cuánto tiempo le lleva",
+          "Construir una disciplina sostenida que no dependa de la motivación del momento"
+        ],
+        "frustraciones": [
+          "Pierde horas en una sola tarea sin darse cuenta",
+          "Las apps que probó son complejas o no generan el hábito",
+          "Llega al final del día frustrado sin saber exactamente qué salió mal"
+        ],
+        "motivaciones": [
+          "Ver progreso visible y concreto de lo que logró en el día",
+          "Recibir una señal antes de que el tiempo se agote, no después",
+          "Sentir que organizarse es posible sin ser obsesivo ni perfeccionista"
+        ],
+        "tecnologia": [
+          "Smartphone Android como herramienta principal",
+          "Usa Google Calendar para eventos, pero no para tareas",
+          "Probó Notion y lo abandonó por la curva de aprendizaje",
+          "Consume contenido en YouTube e Instagram — se engancha fácil"
+        ],
+        "color": "indigo"
+      },
+      {
+        "id": "valentina",
+        "nombre": "Valentina Ríos",
+        "edad": 24,
+        "profesion": "Emprendedora + estudiante de diseño",
+        "ubicacion": "Córdoba, Argentina",
+        "frase": "Si dejo de hacer algo no es por falta de tiempo, sino de disciplina — pero igual no encuentro cómo mantenerla.",
+        "biografia": "Valentina lleva adelante su emprendimiento de diseño gráfico mientras termina la carrera. Su semana nunca es igual a la anterior: los horarios de su pareja cambian cada semana y eso reorganiza todo su esquema. Usa un cuaderno físico, una IA para planificar y Canva para sus proyectos — un sistema híbrido que armó por ensayo y error. La acumulación de responsabilidades la fue desbordando hasta que tuvo que dejar el teatro, una actividad que amaba, porque la ansiedad por todo lo pendiente le quitó el espacio. Sabe que su problema no es la falta de tiempo sino la falta de constancia, y eso la frustra más porque no puede culpar a las circunstancias. Cuando el plan falla, llora, se reorganiza y sigue — tiene resiliencia, pero le agota reiniciar todo el tiempo.",
+        "justificacion": "Valentina combina los rasgos centrales de Barbara (horarios variables, sistema híbrido, falta de disciplina) y Constantino (sobrecarga que genera ansiedad, abandono de actividades por saturación). Representa al usuario que ya tiene herramientas pero ninguna le alcanza, y que necesita constancia más que planificación.",
+        "objetivos": [
+          "Mantener un sistema de organización que funcione incluso cuando la semana cambia",
+          "Dejar de sentir que reinicia desde cero cada vez que el plan se rompe",
+          "Recuperar actividades que abandonó por saturación — como el teatro"
+        ],
+        "frustraciones": [
+          "Su semana rota y ninguna app se adapta sin reconfiguración manual",
+          "Tiene herramientas pero la sobrecarga igual la desborda",
+          "No encuentra un sistema que genere hábito sin depender de su fuerza de voluntad"
+        ],
+        "motivaciones": [
+          "Sentir que puede ser emprendedora, estudiante y tener vida personal al mismo tiempo",
+          "Un sistema que la acompañe emocionalmente cuando el plan falla, no que la juzgue",
+          "Recompensas visibles que la incentiven a seguir cuando la motivación baja"
+        ],
+        "tecnologia": [
+          "iPhone como dispositivo principal",
+          "Sistema híbrido: cuaderno físico + IA + Canva/Capcut",
+          "Adopta herramientas por recomendación de referentes que sigue",
+          "Desconfía de la IA para información crítica pero la usa para organización"
+        ],
+        "color": "rose"
+      }
+    ]
+  },
+  "isPublished": true
+}
