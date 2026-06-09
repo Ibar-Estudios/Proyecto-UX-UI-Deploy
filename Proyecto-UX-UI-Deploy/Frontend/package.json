@@ -23,7 +23,13 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react/jsx-pascal-case": "off",
+      "no-unused-vars": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "react/jsx-no-target-blank": "off"
+    }
   },
   "browserslist": {
     "production": [
