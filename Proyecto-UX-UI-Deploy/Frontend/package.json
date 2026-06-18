@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "my-proyect-ux",
   "version": "0.1.0",
@@ -41,3 +42,48 @@
     ]
   }
 }
+=======
+{
+  "name": "my-proyect-ux",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.15.2",
+    "framer-motion": "^12.38.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.2",
+    "react-scripts": "5.0.1",
+    "recharts": "^3.8.1",
+    "tailwindcss": "^4.0.0-alpha.20",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react/jsx-pascal-case": "off",
+      "no-unused-vars": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "react/jsx-no-target-blank": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
+}
+>>>>>>> a02ea68a0dd3b4b0007f6d0d68dafcd8ce3d88cc
