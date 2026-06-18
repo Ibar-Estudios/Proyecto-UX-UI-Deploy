@@ -1,0 +1,303 @@
+{
+  "sectionName": "UserFlow",
+  "title": "User Flow 🗺️",
+  "description": "Representación completa del recorrido del usuario incluyendo decisiones, caminos alternativos y manejo de errores. A diferencia del Task Flow, el User Flow contempla todas las rutas posibles.",
+  "data": {
+    "descripcion": "El User Flow mapea todos los caminos posibles que puede tomar el usuario — incluyendo decisiones condicionales, rutas alternativas y situaciones de error con su resolución. Cada rombo representa una decisión; cada rectángulo, una pantalla o acción; cada hexágono, un error y su resolución.",
+    "flujos": [
+      {
+        "id": "user-flow-a",
+        "nombre": "Ejecutar el día",
+        "subtitulo": "User Flow A — Core del producto",
+        "color": "indigo",
+        "icono": "⚡",
+        "userPersona": "Matías",
+        "descripcion": "El usuario abre la app durante su jornada. El sistema evalúa el estado actual y lo acompaña en la ejecución, alertándolo cuando el tiempo se agota y guiándolo si decide reorganizar.",
+        "nodos": [
+          {
+            "id": "ufa-inicio",
+            "tipo": "inicio",
+            "titulo": "Usuario abre la app",
+            "descripcion": "Punto de entrada al flujo."
+          },
+          {
+            "id": "ufa-d1",
+            "tipo": "decision",
+            "titulo": "¿Tiene un plan activo?",
+            "si": "ufa-dashboard",
+            "no": "ufa-sin-plan",
+            "labelSi": "Sí, tiene plan",
+            "labelNo": "No tiene plan"
+          },
+          {
+            "id": "ufa-sin-plan",
+            "tipo": "accion",
+            "titulo": "Dashboard muestra estado vacío",
+            "descripcion": "El sistema invita al usuario a crear su plan del día.",
+            "pantalla": "Dashboard — Estado vacío",
+            "siguiente": "ufa-ir-plan"
+          },
+          {
+            "id": "ufa-ir-plan",
+            "tipo": "accion",
+            "titulo": "Redirige a Mi Plan",
+            "descripcion": "El usuario es llevado a la sección Mi Plan para crear su plan antes de ejecutar.",
+            "pantalla": "Mi Plan",
+            "siguiente": "ufa-fin-rama"
+          },
+          {
+            "id": "ufa-fin-rama",
+            "tipo": "fin-rama",
+            "titulo": "Continúa en User Flow B",
+            "descripcion": "Este camino converge con el User Flow B — Planificar el día."
+          },
+          {
+            "id": "ufa-dashboard",
+            "tipo": "accion",
+            "titulo": "Dashboard carga la tarea activa",
+            "descripcion": "El sistema muestra la tarea en curso con el timer activo y el progreso del día.",
+            "pantalla": "Dashboard",
+            "siguiente": "ufa-error1"
+          },
+          {
+            "id": "ufa-error1",
+            "tipo": "error",
+            "titulo": "Error: el timer no carga",
+            "descripcion": "El timer de la tarea activa no responde o se congela.",
+            "resolucion": "El sistema muestra un mensaje de reintento. El usuario toca 'Reiniciar timer' y el sistema recupera el estado desde el último checkpoint guardado.",
+            "siguiente": "ufa-d2"
+          },
+          {
+            "id": "ufa-d2",
+            "tipo": "decision",
+            "titulo": "¿La tarea superó el tiempo estimado?",
+            "si": "ufa-alerta",
+            "no": "ufa-en-curso",
+            "labelSi": "Sí, superó el tiempo",
+            "labelNo": "No, sigue en tiempo"
+          },
+          {
+            "id": "ufa-en-curso",
+            "tipo": "accion",
+            "titulo": "Continúa ejecutando la tarea",
+            "descripcion": "El usuario sigue trabajando. El timer sigue activo y visible.",
+            "pantalla": "Dashboard — Timer activo",
+            "siguiente": "ufa-d2"
+          },
+          {
+            "id": "ufa-alerta",
+            "tipo": "accion",
+            "titulo": "Sistema emite alerta de tiempo crítico",
+            "descripcion": "Notificación visual y sonora informando que el tiempo estimado se agotó.",
+            "pantalla": "Dashboard — Alerta activa",
+            "siguiente": "ufa-d3"
+          },
+          {
+            "id": "ufa-d3",
+            "tipo": "decision",
+            "titulo": "¿Qué decide el usuario?",
+            "si": "ufa-completar",
+            "no": "ufa-reorganizar",
+            "labelSi": "Marcar como completada",
+            "labelNo": "Reorganizar el plan"
+          },
+          {
+            "id": "ufa-reorganizar",
+            "tipo": "accion",
+            "titulo": "Accede a reorganizar el plan",
+            "descripcion": "El usuario abre el panel de reorganización para redistribuir las tareas restantes.",
+            "pantalla": "Mi Plan — Reorganizar",
+            "siguiente": "ufa-error2"
+          },
+          {
+            "id": "ufa-error2",
+            "tipo": "error",
+            "titulo": "Error: no se pueden guardar los cambios",
+            "descripcion": "Al intentar guardar la reorganización, el sistema falla por pérdida momentánea de conexión.",
+            "resolucion": "El sistema guarda los cambios en modo offline localmente y los sincroniza automáticamente al recuperar la conexión. El usuario ve un mensaje: 'Cambios guardados localmente — se sincronizarán pronto'.",
+            "siguiente": "ufa-plan-actualizado"
+          },
+          {
+            "id": "ufa-plan-actualizado",
+            "tipo": "accion",
+            "titulo": "Plan actualizado con nuevos tiempos",
+            "descripcion": "El sistema recalcula el orden y los tiempos de las tareas restantes del día.",
+            "pantalla": "Dashboard — Plan actualizado",
+            "siguiente": "ufa-dashboard"
+          },
+          {
+            "id": "ufa-completar",
+            "tipo": "accion",
+            "titulo": "Marca la tarea como completada",
+            "descripcion": "El usuario presiona el botón de completar.",
+            "pantalla": "Dashboard",
+            "siguiente": "ufa-celebracion"
+          },
+          {
+            "id": "ufa-celebracion",
+            "tipo": "accion",
+            "titulo": "Sistema muestra celebración visual",
+            "descripcion": "Animación de celebración y actualización de la barra de progreso.",
+            "pantalla": "Dashboard — Celebración",
+            "siguiente": "ufa-d4"
+          },
+          {
+            "id": "ufa-d4",
+            "tipo": "decision",
+            "titulo": "¿Hay más tareas en el plan?",
+            "si": "ufa-siguiente",
+            "no": "ufa-fin-dia",
+            "labelSi": "Sí, hay más tareas",
+            "labelNo": "No, era la última"
+          },
+          {
+            "id": "ufa-siguiente",
+            "tipo": "accion",
+            "titulo": "Carga la siguiente tarea",
+            "descripcion": "El sistema activa automáticamente la siguiente tarea del plan.",
+            "pantalla": "Dashboard — Nueva tarea activa",
+            "siguiente": "ufa-d2"
+          },
+          {
+            "id": "ufa-fin-dia",
+            "tipo": "fin",
+            "titulo": "Resumen del día completado",
+            "descripcion": "El sistema muestra el resumen del día con todas las tareas completadas y los logros obtenidos.",
+            "pantalla": "Logros & Progreso — Resumen"
+          }
+        ]
+      },
+      {
+        "id": "user-flow-b",
+        "nombre": "Planificar el día",
+        "subtitulo": "User Flow B — Planificación",
+        "color": "violet",
+        "icono": "📋",
+        "userPersona": "Valentina",
+        "descripcion": "El usuario crea su plan del día desde cero. El sistema evalúa si ya existe un plan previo y guía al usuario para construir o modificar su planificación antes de activar la ejecución.",
+        "nodos": [
+          {
+            "id": "ufb-inicio",
+            "tipo": "inicio",
+            "titulo": "Usuario abre la app",
+            "descripcion": "Punto de entrada al flujo."
+          },
+          {
+            "id": "ufb-d1",
+            "tipo": "decision",
+            "titulo": "¿Ya existe un plan para hoy?",
+            "si": "ufb-plan-existente",
+            "no": "ufb-mi-plan",
+            "labelSi": "Sí, hay plan previo",
+            "labelNo": "No, es nuevo"
+          },
+          {
+            "id": "ufb-plan-existente",
+            "tipo": "accion",
+            "titulo": "Sistema muestra el plan existente",
+            "descripcion": "El Dashboard muestra el plan del día ya cargado con las tareas definidas.",
+            "pantalla": "Dashboard — Plan activo",
+            "siguiente": "ufb-d2"
+          },
+          {
+            "id": "ufb-d2",
+            "tipo": "decision",
+            "titulo": "¿El usuario quiere modificar el plan?",
+            "si": "ufb-mi-plan",
+            "no": "ufb-ejecutar",
+            "labelSi": "Sí, quiere modificarlo",
+            "labelNo": "No, arranca a ejecutar"
+          },
+          {
+            "id": "ufb-ejecutar",
+            "tipo": "fin-rama",
+            "titulo": "Continúa en User Flow A",
+            "descripcion": "Este camino converge con el User Flow A — Ejecutar el día."
+          },
+          {
+            "id": "ufb-mi-plan",
+            "tipo": "accion",
+            "titulo": "Ingresa a Mi Plan",
+            "descripcion": "El usuario accede a la sección Mi Plan para crear o editar su plan del día.",
+            "pantalla": "Mi Plan",
+            "siguiente": "ufb-agregar"
+          },
+          {
+            "id": "ufb-agregar",
+            "tipo": "accion",
+            "titulo": "Agrega tareas con tiempo estimado",
+            "descripcion": "El usuario carga nombre y duración estimada de cada tarea.",
+            "pantalla": "Mi Plan — Agregar tarea",
+            "siguiente": "ufb-error1"
+          },
+          {
+            "id": "ufb-error1",
+            "tipo": "error",
+            "titulo": "Error: tarea sin tiempo estimado",
+            "descripcion": "El usuario intenta guardar una tarea sin completar el campo de duración.",
+            "resolucion": "El sistema resalta el campo vacío en rojo y muestra el mensaje: 'Agregá una duración estimada para continuar'. El usuario completa el campo y reintenta.",
+            "siguiente": "ufb-d3"
+          },
+          {
+            "id": "ufb-d3",
+            "tipo": "decision",
+            "titulo": "¿Tiene actividades inamovibles?",
+            "si": "ufb-inamovibles",
+            "no": "ufb-d4",
+            "labelSi": "Sí, tiene actividades fijas",
+            "labelNo": "No, todas son flexibles"
+          },
+          {
+            "id": "ufb-inamovibles",
+            "tipo": "accion",
+            "titulo": "Marca actividades inamovibles",
+            "descripcion": "El usuario señala las tareas que no pueden moverse: clases, reuniones, compromisos fijos.",
+            "pantalla": "Mi Plan — Actividades inamovibles",
+            "siguiente": "ufb-d4"
+          },
+          {
+            "id": "ufb-d4",
+            "tipo": "decision",
+            "titulo": "¿Quiere agregar más tareas?",
+            "si": "ufb-agregar",
+            "no": "ufb-confirmar",
+            "labelSi": "Sí, agrega más",
+            "labelNo": "No, el plan está completo"
+          },
+          {
+            "id": "ufb-confirmar",
+            "tipo": "accion",
+            "titulo": "Confirma el plan del día",
+            "descripcion": "El usuario presiona confirmar para activar el plan.",
+            "pantalla": "Mi Plan — Confirmación",
+            "siguiente": "ufb-error2"
+          },
+          {
+            "id": "ufb-error2",
+            "tipo": "error",
+            "titulo": "Error: plan con 0 tareas",
+            "descripcion": "El usuario intenta confirmar un plan sin ninguna tarea cargada.",
+            "resolucion": "El sistema bloquea la confirmación y muestra: 'Agregá al menos una tarea para activar tu plan'. El botón de confirmar permanece deshabilitado hasta que haya al menos una tarea.",
+            "siguiente": "ufb-activar"
+          },
+          {
+            "id": "ufb-activar",
+            "tipo": "accion",
+            "titulo": "Sistema activa el Dashboard",
+            "descripcion": "El plan queda activo. El Dashboard carga la primera tarea con el timer listo para iniciar.",
+            "pantalla": "Dashboard — Plan activo",
+            "siguiente": "ufb-fin"
+          },
+          {
+            "id": "ufb-fin",
+            "tipo": "fin",
+            "titulo": "Plan activado — listo para ejecutar",
+            "descripcion": "El flujo de planificación finaliza y converge con el User Flow A para la ejecución.",
+            "pantalla": "Dashboard"
+          }
+        ]
+      }
+    ]
+  },
+  "isPublished": true
+}
